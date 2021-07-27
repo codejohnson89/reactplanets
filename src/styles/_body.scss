@@ -1,0 +1,101 @@
+.statsContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+
+    .stats {
+        border: 1px solid;
+        padding-top: 1.5em;
+        padding-left: 1em;
+        height: 128px;
+
+        h2 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        h4 {
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+    }
+}
+
+.planet-bio {
+    h1 {
+        color: $white;
+    }
+
+    .content {
+        color: $white;
+    }
+
+    .wiki {
+        color: $white;
+        opacity: .5;
+    }
+}
+
+.grid-display {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 6vh);
+
+    #planets {
+        grid-column-start: 1;
+        grid-column-end: 8;
+        grid-row-start: 1;
+        justify-self: center;
+        align-self: center;
+        grid-row-end: 12;
+    }
+
+    .planet-bio {
+        grid-column-start: 9;
+        grid-column-end: 12;
+        grid-row-end: 8;
+        grid-row-start: 1;
+        margin-top: 5em;
+    }
+
+    .viewButtons {
+        grid-column-start: 9;
+        grid-column-end: 12;
+    }
+}
+
+.jumboTron-content {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 92vh;
+
+    .jumboTron {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 60%;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, .7);
+        opacity: .5;
+        padding: 3.5em;
+        border-radius: 15px;
+        box-shadow: 3px 1px 8px #000;
+        .btn {
+            margin-top: 2em;
+            background-color: #fff;
+            border: transparent;
+            color: #000;
+            padding: 1em;
+            text-align: center;
+            &:hover {
+                background-color: $blue;
+                color: $white;
+            }
+        }
+        h1 {
+            color: #000;
+        }
+    }
+}

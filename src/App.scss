@@ -1,0 +1,82 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import './styles/utils';
+
+
+.body {
+  margin: 0px;
+  font-family: $spartan;
+  font-size: 14px;
+  line-height: 25px;
+  background-image: url('./assets/background-stars.svg') !important;
+  background-color: $darkblue;
+  background-size: cover;
+}
+
+.container {
+  max-width: 1440px;
+}
+
+h1 {
+  font-family: $antonio;
+  font-size: 80px;
+  line-height: 103px;
+}
+
+h2 {
+  font-family: $antonio;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: -1.5px;
+}
+
+h3 {
+  font-family: $spartan;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 25px;
+  letter-spacing: 2.6px;
+}
+
+h4 {
+  font-family: $spartan;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 25px;
+  letter-spacing: 1px;
+}
+
+.btn {
+  background-color: transparent;
+  border: 1px solid;
+  color: $white;
+  margin-bottom: 1.5em;
+  text-transform: uppercase;
+  text-align: left;
+  text-indent: 1em;
+  width: 350px;
+  &:active {
+    background-color: $lightblue;
+  }
+  &:hover {
+    background-color: $darkgrey;
+  }
+
+  span {
+    position: relative;
+    height: 25px;
+    left: 21.14%;
+    right: 52.29%;
+    top: calc(50% - 25px/2 + 0.5px);    
+    font-family: Spartan;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 2.57143px;
+    text-transform: uppercase;    
+    color: #FFFFFF;
+  }
+}
+
+@import './styles/navigation';
+@import './styles/body';
