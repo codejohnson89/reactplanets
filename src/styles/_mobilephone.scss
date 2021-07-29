@@ -7,24 +7,26 @@
 
         #planets {
             grid-column-start: 1;
-            grid-column-end: 12;
+            grid-column-end: -1;
             grid-row-start: 4;
             grid-row-end: 6;
         }
 
         .planet-bio {
             grid-column-start: 1;
-            grid-column-end: 12;
+            grid-column-end: -1;
             grid-row-end: 12;
             grid-row-start: 8;
+            text-align: center;
+            padding: 0 3em;
         }
 
         .viewButtons {
             grid-column-start: 1;
-            grid-column-end: 12;
+            grid-column-end: -1;
             grid-row-start: 1;
             align-self: center;
-            border-bottom: 1px solid rgba(255,255,255, .2);
+            border-bottom: 1px solid rgba(255, 255, 255, .2);
             height: 100%;
 
             .desktop-btn {
@@ -37,7 +39,7 @@
                 color: $white;
                 height: 100%;
                 align-items: center;
-                
+
 
                 div {
                     font-size: 9px;
@@ -46,13 +48,34 @@
                     letter-spacing: 1.92857px;
                     text-transform: uppercase;
                     opacity: .5;
-                    &:active {
+
+                    &:visited {
                         border-bottom: 1px solid green;
                         opacity: 1;
                     }
-                    
+
                 }
             }
         }
+    }
+
+    .statsContainer {
+        grid-template-columns: repeat(1, 1fr);
+
+        .stats {
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            h2 {
+                padding: 0 .5em .5em 0;
+                margin: 0;
+            }
+        }
+    }
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url('../assets/icon-hamburger.svg');
     }
 }
