@@ -1,0 +1,58 @@
+@media only screen and (max-width: 576px) {
+    .grid-display {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(12, 6vh);
+        padding: 0;
+
+        #planets {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 4;
+            grid-row-end: 6;
+        }
+
+        .planet-bio {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-end: 12;
+            grid-row-start: 8;
+        }
+
+        .viewButtons {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            grid-row-start: 1;
+            align-self: center;
+            border-bottom: 1px solid rgba(255,255,255, .2);
+            height: 100%;
+
+            .desktop-btn {
+                display: none;
+            }
+
+            .mobile-btn {
+                display: flex;
+                justify-content: space-evenly;
+                color: $white;
+                height: 100%;
+                align-items: center;
+                
+
+                div {
+                    font-size: 9px;
+                    line-height: 10px;
+                    text-align: center;
+                    letter-spacing: 1.92857px;
+                    text-transform: uppercase;
+                    opacity: .5;
+                    &:active {
+                        border-bottom: 1px solid green;
+                        opacity: 1;
+                    }
+                    
+                }
+            }
+        }
+    }
+}

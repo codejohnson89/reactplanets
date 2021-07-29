@@ -55,7 +55,7 @@
         grid-column-end: 12;
         grid-row-end: 8;
         grid-row-start: 1;
-        margin-top: 5em;
+        // margin-top: 5em;
     }
 
     .viewButtons {
@@ -98,4 +98,8 @@
             color: #000;
         }
     }
+}
+
+.mobile-btn {
+    display: none;
 }

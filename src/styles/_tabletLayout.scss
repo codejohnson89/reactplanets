@@ -1,0 +1,25 @@
+@media only screen and (max-width: 1024px) {
+.grid-display {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 6vh);
+    #planets {
+        grid-column-start: 1;
+        grid-column-end: 12;
+        grid-row-start: 1;
+        grid-row-end: 6;
+    }
+    .planet-bio {
+        grid-column-start: 2;
+        grid-column-end: 7;
+        grid-row-end: 8;
+        grid-row-start: 7;
+    }
+
+    .viewButtons {
+        grid-column-start: 8;
+        grid-column-end: 12;
+        grid-row-start: 8;
+    }
+}
+}
