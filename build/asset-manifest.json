@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.619b14dc.chunk.css",
-    "main.js": "/static/js/main.09a521bd.chunk.js",
-    "main.js.map": "/static/js/main.09a521bd.chunk.js.map",
+    "main.css": "/static/css/main.5ffd5283.chunk.css",
+    "main.js": "/static/js/main.4d6071be.chunk.js",
+    "main.js.map": "/static/js/main.4d6071be.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.43808cf2.js",
     "runtime-main.js.map": "/static/js/runtime-main.43808cf2.js.map",
     "static/css/2.2c5575d3.chunk.css": "/static/css/2.2c5575d3.chunk.css",
@@ -12,9 +12,9 @@
     "static/js/3.2e24a906.chunk.js.map": "/static/js/3.2e24a906.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.2c5575d3.chunk.css.map": "/static/css/2.2c5575d3.chunk.css.map",
-    "static/css/main.619b14dc.chunk.css.map": "/static/css/main.619b14dc.chunk.css.map",
+    "static/css/main.5ffd5283.chunk.css.map": "/static/css/main.5ffd5283.chunk.css.map",
     "static/js/2.0be99b6f.chunk.js.LICENSE.txt": "/static/js/2.0be99b6f.chunk.js.LICENSE.txt",
-    "static/media/App.scss": "/static/media/background-stars.f6233a6a.svg",
+    "static/media/App.scss": "/static/media/icon-hamburger.05a40a49.svg",
     "static/media/planet-earth.4d12af96.svg": "/static/media/planet-earth.4d12af96.svg",
     "static/media/planet-jupiter.b1d0956b.svg": "/static/media/planet-jupiter.b1d0956b.svg",
     "static/media/planet-mars.f9dc1ca4.svg": "/static/media/planet-mars.f9dc1ca4.svg",
@@ -28,7 +28,7 @@
     "static/js/runtime-main.43808cf2.js",
     "static/css/2.2c5575d3.chunk.css",
     "static/js/2.0be99b6f.chunk.js",
-    "static/css/main.619b14dc.chunk.css",
-    "static/js/main.09a521bd.chunk.js"
+    "static/css/main.5ffd5283.chunk.css",
+    "static/js/main.4d6071be.chunk.js"
   ]
 }
