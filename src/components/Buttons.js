@@ -17,9 +17,9 @@ const Buttons = (props) => {
                 <Button className={activeBtn.surface ? 'active' : 'b'} onClick={() => dispatch(showSurface())}>03<span>surface geology</span></Button>
             </div>
             <div className="mobile-btn">
-                <div onClick={() => dispatch(showOverview())}>overview</div>
-                <div onClick={() => dispatch(showInternal())}>internal</div>
-                <div onClick={() => dispatch(showSurface())}>surface</div>
+                <div className={activeBtn.overview ? 'active' : 'b'} onClick={() => dispatch(showOverview())}>overview</div>
+                <div className={activeBtn.internal ? 'active' : 'b'} onClick={() => dispatch(showInternal())}>internal</div>
+                <div className={activeBtn.surface ? 'active' : 'b'} onClick={() => dispatch(showSurface())}>surface</div>
             </div>
         </div>
     )

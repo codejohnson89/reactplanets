@@ -4,7 +4,7 @@
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(12, 6vh);
         padding: 0;
-        margin-bottom: 9em;
+        margin-bottom: 12em;
 
         #planets {
             grid-column-start: 1;
@@ -50,11 +50,15 @@
                     letter-spacing: 1.92857px;
                     text-transform: uppercase;
                     opacity: .5;
+                    height: 100%;
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
 
-                    &:visited {
-                        border-bottom: 1px solid green;
-                        opacity: 1;
-                    }
+                    // &:visited {
+                    //     border-bottom: 2px solid green;
+                    //     opacity: 1;
+                    // }
 
                 }
             }
@@ -70,6 +74,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
+
             h2 {
                 padding: 0 .5em .5em 0;
                 margin: 0;
@@ -79,5 +84,10 @@
 
     .navbar-light .navbar-toggler-icon {
         background-image: url('../assets/icon-hamburger.svg');
+    }
+
+    .surfaceImage {
+        left: 9.5em;
+        top: 20em;
     }
 }

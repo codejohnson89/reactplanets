@@ -1,24 +1,63 @@
-#jupiter button.active{
+#jupiter button.active {
     background-color: $red;
 }
-#earth button.active{
+
+#jupiter.grid-display .viewButtons .mobile-btn div.active {
+    border-bottom: 2px solid $red;
+}
+
+#earth button.active {
     background-color: $purple;
 }
-#mars button.active{
+
+#earth.grid-display .viewButtons .mobile-btn div.active {
+    border-bottom: 2px solid $purple;
+}
+
+#mars button.active {
     background-color: $darkorange;
 }
-#mercury button.active{
+
+#mars.grid-display .viewButtons .mobile-btn div.active {
+    border-bottom: 2px solid $darkorange;
+}
+
+#mercury button.active {
     background-color: $lightblue;
 }
-#venus button.active{
+
+#mercury.grid-display .viewButtons .mobile-btn div.active {
+    border-bottom: 2px solid $lightblue;
+}
+
+#venus button.active {
     background-color: $yellow;
 }
-#neptune button.active{
+
+#venus.grid-display .viewButtons .mobile-btn div.active {
+    border-bottom: 2px solid $yellow;
+}
+
+#neptune button.active {
     background-color: $blue;
 }
-#saturn button.active{
+
+#neptune.grid-display .viewButtons .mobile-btn div.active {
+    border-bottom: 2px solid $blue;
+}
+
+#saturn button.active {
     background-color: $orange;
 }
-#uranus button.active{
+
+#saturn.grid-display .viewButtons .mobile-btn div.active {
+    border-bottom: 2px solid $orange;
+}
+
+#uranus button.active {
     background-color: $lightbluegreen;
+}
+
+#uranus.grid-display .viewButtons .mobile-btn div.active {
+    border-bottom: 2px solid $lightbluegreen;
 }

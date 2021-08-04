@@ -22,8 +22,22 @@
         grid-row-start: 8;
     }
 }
-.surfaceImage {
-    display: none;
+.justify-content-end.show {
+    position: absolute;
+    top: 7em;
+    width: 100%;
+    background-color: #070724;
+    z-index: 9;
+    .navbar-nav {
+        height: 35em;
+        .nav-link {
+            height: 100% !important;
+            border-bottom: 1px solid #ccc;
+        }
+    }
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../assets/icon-hamburger.svg');
 }
 }
 

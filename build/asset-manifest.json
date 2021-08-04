@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d91673b6.chunk.css",
-    "main.js": "/static/js/main.cfb69463.chunk.js",
-    "main.js.map": "/static/js/main.cfb69463.chunk.js.map",
+    "main.css": "/static/css/main.4e4b0ceb.chunk.css",
+    "main.js": "/static/js/main.27430fff.chunk.js",
+    "main.js.map": "/static/js/main.27430fff.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2f8f7254.js",
     "runtime-main.js.map": "/static/js/runtime-main.2f8f7254.js.map",
     "static/css/2.2c5575d3.chunk.css": "/static/css/2.2c5575d3.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.77c9cbb6.chunk.js.map": "/static/js/3.77c9cbb6.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.2c5575d3.chunk.css.map": "/static/css/2.2c5575d3.chunk.css.map",
-    "static/css/main.d91673b6.chunk.css.map": "/static/css/main.d91673b6.chunk.css.map",
+    "static/css/main.4e4b0ceb.chunk.css.map": "/static/css/main.4e4b0ceb.chunk.css.map",
     "static/js/2.dfc00082.chunk.js.LICENSE.txt": "/static/js/2.dfc00082.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/icon-hamburger.05a40a49.svg",
     "static/media/geology-earth.61d2b324.png": "/static/media/geology-earth.61d2b324.png",
@@ -44,7 +44,7 @@
     "static/js/runtime-main.2f8f7254.js",
     "static/css/2.2c5575d3.chunk.css",
     "static/js/2.dfc00082.chunk.js",
-    "static/css/main.d91673b6.chunk.css",
-    "static/js/main.cfb69463.chunk.js"
+    "static/css/main.4e4b0ceb.chunk.css",
+    "static/js/main.27430fff.chunk.js"
   ]
 }
