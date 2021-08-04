@@ -25,6 +25,11 @@
                 text-transform: uppercase;                
                 color: #FFFFFF; 
                 height: 25px;
+                display: flex;
+                align-items: center;
+                :last-child {
+                    border: none;
+                }
                } 
             }
         }

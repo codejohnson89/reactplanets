@@ -5,9 +5,10 @@
     grid-template-rows: repeat(12, 6vh);
     #planets {
         grid-column-start: 1;
-        grid-column-end: 12;
-        grid-row-start: 1;
+        grid-column-end: -1;
+        grid-row-start: 2;
         grid-row-end: 6;
+        max-width: 50%;
     }
     .planet-bio {
         grid-column-start: 2;
