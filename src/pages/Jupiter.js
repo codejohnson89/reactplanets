@@ -28,7 +28,7 @@ const Jupiter = () => {
 
     return (
         <>
-        <Container className="grid-display">
+        <Container className="grid-display" id="jupiter">
             <Planets data="Jupiter"/>
             <PlanetBio planet="Jupiter"/>
             <Buttons />

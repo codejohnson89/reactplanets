@@ -28,7 +28,7 @@ const Venus = () => {
 
     return (
         <>
-        <Container className="grid-display">
+        <Container className="grid-display" id="venus">
             <Planets data="Venus"/>
             <PlanetBio planet="Venus"/>
             <Buttons />

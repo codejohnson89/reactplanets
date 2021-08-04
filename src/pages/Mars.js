@@ -28,7 +28,7 @@ const Mars = () => {
 
     return (
         <>
-            <Container className="grid-display">
+            <Container className="grid-display" id="mars">
                 <Planets data="Mars"/>
                 <PlanetBio planet="Mars"/>
                 <Buttons />

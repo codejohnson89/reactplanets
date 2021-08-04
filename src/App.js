@@ -2,7 +2,6 @@ import './App.scss';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Navbar from './components/Navigation';
-import Home from './pages/Home';
 import Earth from './pages/Earth';
 import Mercury from './pages/Mercury';
 import Venus from './pages/Venus';
@@ -19,7 +18,7 @@ function App() {
         <Navbar />
       </header>
       <Switch>
-        <Route path='/' exact component={Home} />
+        <Route path='/' exact component={Mercury} />
         <Route path='/mercury' component={Mercury} />
         <Route path='/venus' component={Venus} />
         <Route path='/earth' component={Earth} />
