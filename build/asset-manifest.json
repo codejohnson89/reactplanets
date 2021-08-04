@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.60aff19b.chunk.css",
-    "main.js": "/static/js/main.db030bca.chunk.js",
-    "main.js.map": "/static/js/main.db030bca.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.43808cf2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.43808cf2.js.map",
+    "main.css": "/static/css/main.d91673b6.chunk.css",
+    "main.js": "/static/js/main.cfb69463.chunk.js",
+    "main.js.map": "/static/js/main.cfb69463.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2f8f7254.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2f8f7254.js.map",
     "static/css/2.2c5575d3.chunk.css": "/static/css/2.2c5575d3.chunk.css",
-    "static/js/2.24ba1209.chunk.js": "/static/js/2.24ba1209.chunk.js",
-    "static/js/2.24ba1209.chunk.js.map": "/static/js/2.24ba1209.chunk.js.map",
-    "static/js/3.2e24a906.chunk.js": "/static/js/3.2e24a906.chunk.js",
-    "static/js/3.2e24a906.chunk.js.map": "/static/js/3.2e24a906.chunk.js.map",
+    "static/js/2.dfc00082.chunk.js": "/static/js/2.dfc00082.chunk.js",
+    "static/js/2.dfc00082.chunk.js.map": "/static/js/2.dfc00082.chunk.js.map",
+    "static/js/3.77c9cbb6.chunk.js": "/static/js/3.77c9cbb6.chunk.js",
+    "static/js/3.77c9cbb6.chunk.js.map": "/static/js/3.77c9cbb6.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.2c5575d3.chunk.css.map": "/static/css/2.2c5575d3.chunk.css.map",
-    "static/css/main.60aff19b.chunk.css.map": "/static/css/main.60aff19b.chunk.css.map",
-    "static/js/2.24ba1209.chunk.js.LICENSE.txt": "/static/js/2.24ba1209.chunk.js.LICENSE.txt",
+    "static/css/main.d91673b6.chunk.css.map": "/static/css/main.d91673b6.chunk.css.map",
+    "static/js/2.dfc00082.chunk.js.LICENSE.txt": "/static/js/2.dfc00082.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/static/media/icon-hamburger.05a40a49.svg",
     "static/media/geology-earth.61d2b324.png": "/static/media/geology-earth.61d2b324.png",
     "static/media/geology-jupiter.93e4e021.png": "/static/media/geology-jupiter.93e4e021.png",
@@ -41,10 +41,10 @@
     "static/media/planet-venus.db5a3444.svg": "/static/media/planet-venus.db5a3444.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.43808cf2.js",
+    "static/js/runtime-main.2f8f7254.js",
     "static/css/2.2c5575d3.chunk.css",
-    "static/js/2.24ba1209.chunk.js",
-    "static/css/main.60aff19b.chunk.css",
-    "static/js/main.db030bca.chunk.js"
+    "static/js/2.dfc00082.chunk.js",
+    "static/css/main.d91673b6.chunk.css",
+    "static/js/main.cfb69463.chunk.js"
   ]
 }

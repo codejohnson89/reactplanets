@@ -4,19 +4,21 @@
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(12, 6vh);
         padding: 0;
+        margin-bottom: 9em;
 
         #planets {
             grid-column-start: 1;
             grid-column-end: -1;
-            grid-row-start: 4;
+            grid-row-start: 5;
             grid-row-end: 6;
+            max-width: 80%;
         }
 
         .planet-bio {
             grid-column-start: 1;
             grid-column-end: -1;
             grid-row-end: 12;
-            grid-row-start: 8;
+            grid-row-start: 9;
             text-align: center;
             padding: 0 3em;
         }
