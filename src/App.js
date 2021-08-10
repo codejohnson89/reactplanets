@@ -18,7 +18,7 @@ function App() {
         <Navbar />
       </header>
       <Switch>
-        <Route path='/' exact component={Mercury} />
+        <Route path='/' exact component={Earth} />
         <Route path='/mercury' component={Mercury} />
         <Route path='/venus' component={Venus} />
         <Route path='/earth' component={Earth} />
